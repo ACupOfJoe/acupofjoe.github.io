@@ -1,0 +1,449 @@
+
+/* Containers are named after looking at website from desktop view */
+.html { 
+  box-sizing: border-box;
+}
+
+.waterandboatsimage { 
+  float: left;
+}
+
+.boatsinwaterimage { 
+  float: left; 
+}
+
+.mountainsimage {
+  float: left; 
+}
+
+.palmtreesimage { 
+  float: left; 
+}
+
+.name { 
+  float: right;
+}
+
+.catchphrase { 
+ clear: right;
+}
+
+.logo { 
+  float: left; 
+ }
+
+.block { 
+  display: block;
+}
+
+.clearLeft { 
+  clear: left;
+}
+
+.clearRight {
+  clear: right;
+}
+
+.containerwholepage { 
+  display: flex;
+}
+
+.containermiddle { 
+  margin: 0 5% 0 5%;
+}
+
+.containertop {
+  clear: left;
+  margin: 0 5% 0 15%;
+  width: 80%;
+  border-bottom: 4px solid;
+}
+
+.containerleft {  
+  width: 7.5%;
+  margin-left: 5%;
+  margin-right: 2.5%;
+  float: left;
+  clear: left;
+}
+
+.containerbottom { 
+  padding: 3% 5% 0 5%;
+  margin: 0 5% 0 0; 
+  width: 70%;
+  float: right;
+  background-color: #cfe7fc;
+}
+
+.cropicon {
+ height: 200px;
+ width: 300px;
+ overflow: hidden;
+}
+
+.cropicon img {
+ height: auto;
+ width: 100%;
+}
+
+.croplogo {
+ height: 20%;
+ width: 20%;
+}
+
+.croplogo img {
+ height: auto;
+ width: 10%;
+ margin: 0 0 0 0;
+}
+
+.cropmain { 
+  height: 100%;
+  width: 100%;
+}
+
+.cropmain img {
+  height: auto;
+  width: 100%;
+}
+
+.horizontalmargins {
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+}
+ 
+.cropside { 
+  height: 90%;
+  width: 90%;
+}
+
+
+.cropside img {
+  height: auto;
+  width: 100%;
+}
+ 
+.sidetext { 
+  font-size: 1.0vw;
+  font-family: 'Lato', sans-serif;
+}
+
+.featuredwork { 
+  font-family: 'Cinzel', serif;
+  display: block;
+  clear: both;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.captionheadingfont { 
+  font-family: 'Cinzel', serif;
+  font-size: 1.0vw;
+ }
+
+.captionlinkfont {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8vw; }
+
+.floatRight { 
+  float: right; 
+}
+
+h1.name { 
+  font-family: 'Cinzel', serif;
+  order: 1;
+  font-size: 3vw;
+  margin: 0;
+  padding: 0;
+ }
+
+h3.catchphrase {
+  font-family: 'Cinzel', serif;
+  text-align: right;
+  order: 2;
+  font-size: 3vw;
+  margin: 0;
+  padding: 0;
+}
+
+
+.clearBoth { 
+  clear: both; 
+}
+
+.floatLeft { 
+  float: left;
+}
+
+.inlineBlock { 
+display: inline-block; 
+}
+
+.html { 
+margin: 0 0 0 0; 
+}
+
+.positionLeftRelative { 
+  position: relative;
+  left: 10%;
+}
+
+.textAlignCenter {
+  text-align: center;
+}
+
+.verticalAlignTop { 
+  vertical-align: top;
+ }
+
+.block { 
+  display: block;
+}
+
+.captionheadingcolor { 
+  color: #052848;
+}
+
+.captionlinkcolor { 
+  color: #052848;
+}
+
+.namecolor { 
+  color: #052848;
+}
+
+.catchphrasecolor { 
+  color: #052848;
+}
+
+.bordercolor {
+  color: #409ff2;
+}
+
+.sidetextcolor { 
+  color: #052848;
+}
+
+.iconcharacteristics {
+  display:inline-block;
+}
+
+@media screen and (min-width: 360px) and (max-width: 767px)
+{
+  body { 
+    width: 90%;
+    margin: 5% 5% 5% 5%;
+  }
+
+  .containerwholepage { 
+    width: 100%;
+  }
+
+  .containermiddle { 
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+
+  .containertop {
+      margin: 0 0 0 0;
+      width: 100%;
+  }
+
+  .containerleft { 
+    width: 100%;
+    margin: 0 0 0 0;
+    position: relative;
+  }
+
+    /*https://www.w3.org/Style/Examples/007/center.en.html#block*/
+  .cropside { 
+    height: 100%;
+    width: 100%;
+  }
+
+  .cropside img {
+    height: auto;
+    width: 100%;
+   }
+
+  .croplogo { 
+    height: 17.5%;
+    width: 17.5%;
+  }
+
+  .croplogo img {
+    height: auto;
+    width: 100%;
+  } 
+   
+  .horizontalmargins {
+    display: block; 
+    margin: 10% 30% 10% 30%;
+   }
+
+  .containerbottom { 
+    padding: 5%;
+    margin: 0;
+    width: 90%;
+  }
+
+  .cropicon {
+    height: 40vw;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover; 
+  }
+
+  .cropicon img {
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .featuredwork { 
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .sidetext { 
+    font-size: 3vw;
+  }
+
+  .captionheadingfont { 
+    font-size: 3vw;
+  }
+
+  .captionlinkfont { 
+    font-size: 2vw;
+    word-wrap: break-word;
+  }
+
+  .cropicondiv { 
+    float: left;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1399px) {
+  body { 
+    width: 90%;
+    margin: 5% 5% 5% 5%;
+  }
+
+  .containerwholepage { 
+    width: 100%;
+  }
+
+  .containermiddle { 
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+
+  .containertop {
+    margin: 0 0 0 0;
+    width: 100%;
+  }
+
+  .containerleft { 
+    width: 100%;
+    margin: 0 0 0 0;
+    position: relative;
+  }
+
+  .containerbottom { 
+    padding: 5%;
+    margin: 0;
+    width: 90%;
+   }
+  /*https://www.w3.org/Style/Examples/007/center.en.html#block*/
+  .cropside { 
+    height: 100%;
+    width: 100%;
+  }
+
+  .cropside img {
+    height: auto;
+    width: 100%;
+  }
+
+  .croplogo { 
+    height: 17.5%;
+    width: 17.5%;
+  }
+
+  .croplogo img {
+    height: auto;
+    width: 100%;
+  } 
+ 
+  .horizontalmargins {
+    display: block; 
+    margin: 10% 30% 10% 30%;
+  }
+
+
+  .cropicon {
+    max-height: auto;
+    max-width: 100%;  
+  }
+
+  .cropicon img {
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .featuredwork { 
+    text-align: center;
+    text-decoration: underline;
+    font-size: 4vw;
+  }
+
+  .sidetext { 
+    font-size: 3vw;
+  }
+
+  .captionheadingfont { 
+    font-size: 3vw;
+  }
+
+  .captionlinkfont { 
+    font-size: 2vw;
+    word-wrap: break-word;
+  }
+
+  .cropicondiv { 
+    float: left;
+  }
+
+ .cropicondiv { 
+    height: auto;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+
+ .iconcharacteristics {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .cropicon { 
+    width: 100%;
+    height: 40vw;
+    overflow: hidden;
+    background-size: cover;
+   }
+ }
+
+ @media screen and (min-width: 1400px){ 
+    .containerwholepage {
+      width: 1400px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: auto;
+      margin-bottom: auto; 
+    } 
+  }
